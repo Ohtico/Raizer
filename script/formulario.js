@@ -1,6 +1,5 @@
 let formulario = document.getElementById('formulario')
 let btnProducto = document.getElementById('btnProducto')
-let btnSubir = document.getElementById('btnSubir')
 let btnEditar = document.getElementById('btnEditar')
 let btnEliminar = document.getElementById('btnEliminar')
 
