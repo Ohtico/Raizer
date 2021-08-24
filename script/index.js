@@ -62,3 +62,64 @@ const pintarIndex = async (url1, url2, url3) =>{
     
 }
 
+const categoryComputers = async () => {
+container.innerHTML = ''
+const resp = await fetch(url1)
+const data = await resp.json();
+// console.log(data)
+data.forEach(laptop => {
+    const {nombre, img, precio} = laptop;
+    container.innerHTML += `
+                            <div class="card m-3" style="width: 17rem;"> 
+                            <div class="card h-100" style="width: 17rem;">
+                            <img src="${img}" width="80px" height="200px" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">${nombre}</h5>
+                            <p class="card-text">${precio}</p>
+                            </div>
+                            </div>
+                            </div>`
+})
+
+}
+const category_gadsged = async () => {
+  container.innerHTML = ''
+  const resp = await fetch(url2)
+  const data = await resp.json();
+  // console.log(data)
+  data.forEach(laptop => {
+      const {nombre, img, precio} = laptop;
+      container.innerHTML += `
+                              <div class="card m-3" style="width: 17rem;"> 
+                              <div class="card h-100" style="width: 17rem;">
+                              <img src="${img}" width="80px" height="200px" class="card-img-top" alt="...">
+                              <div class="card-body">
+                              <h5 class="card-title">${nombre}</h5>
+                              <p class="card-text">${precio}</p>
+                              </div>
+                              </div>
+                              </div>`
+  })
+
+}
+const category_laptos = async () => {
+  container.innerHTML = ''
+  const resp = await fetch(url3)
+  const data = await resp.json();
+  // console.log(data)
+  data.forEach(laptop => {
+      const {nombre, img, precio} = laptop;
+      container.innerHTML += `
+                              <div class="card m-3" style="width: 17rem;"> 
+                              <div class="card h-100" style="width: 17rem;">
+                              <img src="${img}" width="80px" height="200px" class="card-img-top" alt="...">
+                              <div class="card-body">
+                              <h5 class="card-title">${nombre}</h5>
+                              <p class="card-text">${precio}</p>
+                              </div>
+                              </div>
+                              </div>`
+  })
+
+}
+

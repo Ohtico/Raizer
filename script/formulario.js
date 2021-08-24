@@ -13,12 +13,14 @@ formulario.addEventListener('submit', async (e) => {
 
 let nombre = document.getElementById('name').value;
 let precio = document.getElementById('precio').value;
+let url = document.getElementById('url').value
 
 let resp = await fetch(url, {
     method: 'POST',
     body: JSON.stringify({
         nombre: nombre,
-        precio: precio
+        precio: precio,
+        url: url
     }),
     headers: {
         "Content-Type": "application/json; charset=UTF-8"
@@ -37,6 +39,7 @@ btnProducto.addEventListener('click', async () => {
 
     document.getElementById('name').value = nombre;
     document.getElementById('precio').value = precio
+    document.getElementById('url').value = img
 })
 
 btnEditar.addEventListener('clicl', async() => {
