@@ -1,16 +1,40 @@
 {
     "computadores": [
         {
-            "nombre": "Razer Orbweaver Chroma",
-            "img": "https://m.media-amazon.com/images/I/71r3ktfakgL._AC_UY218_.jpg",
-            "precio": 74,
+            "nombre": "Razer Tomahawk Desktop",
+            "img": "https://m.media-amazon.com/images/I/61JaVpYjZRL._AC_UY218_.jpg",
+            "precio": 950,
             "id": 1
         },
         {
-            "nombre": "Teclado mecanico RGB 63 teclas",
-            "img": "https://m.media-amazon.com/images/I/611X-320QDL._AC_UY218_.jpg",
-            "precio": "",
+            "nombre": "Lian Li",
+            "img": "https://m.media-amazon.com/images/I/512F4foBFrL._AC_UY218_.jpg",
+            "precio": 850,
             "id": 2
+        },
+        {
+            "nombre": "Redragon GS520 Anvil RGB altavoces",
+            "img": "https://m.media-amazon.com/images/I/81+PD8UuhhL._AC_UY218_.jpg",
+            "precio": 1000,
+            "id": 3
+        },
+        {
+            "nombre": "UM700 Mini PC AMD Ryzen",
+            "img": "https://m.media-amazon.com/images/I/61IgIyVQ51L._AC_UY218_.jpg",
+            "precio": 669,
+            "id": 4
+        },
+        {
+            "nombre": "Intel Core i7",
+            "img": "https://m.media-amazon.com/images/I/71GMXl91P4S._AC_UY218_.jpg",
+            "precio": 1800,
+            "id": 5
+        },
+        {
+            "nombre": "MUSETEX Phanteon negro ATX",
+            "img": "https://m.media-amazon.com/images/I/91LsWMog2VS._AC_UY218_.jpg",
+            "precio": 89,
+            "id": 6
         }
 ]
 }
