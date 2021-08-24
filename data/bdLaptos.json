@@ -22,19 +22,19 @@
             "nombre": "iProda Laptop i3, 14 pulgadas Ordenadores portátiles",
             "img": "https://m.media-amazon.com/images/I/51wJXzIJeBL._AC_UY218_.jpg",
             "precio": "358",
-            "id": 3
+            "id": 4
         },
         {
             "nombre": "HP Stream portátil de 14 pulgadas, Intel Celeron N4000, 4 GB de RAM",
             "img": "https://m.media-amazon.com/images/I/81RCOr3hJOL._AC_UY218_.jpg",
             "precio": "270",
-            "id": 3
+            "id": 5
         },
         {
             "nombre": "Acer Aspire 5 Computadora portátil delgada, pantalla IPS Full HD ",
             "img": "https://m.media-amazon.com/images/I/71vvXGmdKWL._AC_UY218_.jpg",
             "precio": "439",
-            "id": 3
+            "id": 6
         }
     ]
 }
