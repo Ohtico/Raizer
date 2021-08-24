@@ -1,40 +1,40 @@
 {
-    "gadges": [
-        {
-            "nombre": "Razer Orbweaver Chroma",
-            "img": "https://m.media-amazon.com/images/I/71r3ktfakgL._AC_UY218_.jpg",
-            "precio": 74,
-            "id": 1
-        },
-        {
-            "nombre": "Teclado mecanico RGB 63 teclas",
-            "img": "https://m.media-amazon.com/images/I/611X-320QDL._AC_UY218_.jpg",
-            "precio": 85,
-            "id": 2
-        },
-        {
-            "nombre": "Mouse razer basilisk X HyperSpeed",
-            "img": "https://m.media-amazon.com/images/I/710uCJC9mTL._AC_UY218_.jpg",
-            "precio" : 126,
-            "id": 3
-        },
-        {
-            "nombre": "Razer blackShark V2 gaming headset",
-            "img": "https://m.media-amazon.com/images/I/51jmB3ciUhL._AC_UY218_.jpg",
-            "precio": 126,
-            "id": 4
-        },
-        {
-            "nombre": "Razer gamming Viper",
-            "img": "https://m.media-amazon.com/images/I/61M-GlcZjhL._AC_UY218_.jpg",
-            "precio": 118,
-            "id": 5
-        },
-        {
-            "nombre": "Auriculares Bluetooth",
-            "img": "https://m.media-amazon.com/images/I/41wv3mCUtqL._AC_UY218_.jpg",
-            "precio": 129,
-            "id": 6
-        }
-]
+  "gadges": [
+    {
+      "nombre": "Razer Orbweaver Chroma",
+      "img": "https://m.media-amazon.com/images/I/71r3ktfakgL._AC_UY218_.jpg",
+      "precio": 74,
+      "id": 1
+    },
+    {
+      "nombre": "Teclado mecanico RGB 63 teclas",
+      "img": "https://m.media-amazon.com/images/I/611X-320QDL._AC_UY218_.jpg",
+      "precio": 85,
+      "id": 2
+    },
+    {
+      "nombre": "Mouse razer basilisk X HyperSpeed",
+      "img": "https://m.media-amazon.com/images/I/710uCJC9mTL._AC_UY218_.jpg",
+      "precio": 126,
+      "id": 3
+    },
+    {
+      "nombre": "Razer blackShark V2 gaming headset",
+      "img": "https://m.media-amazon.com/images/I/51jmB3ciUhL._AC_UY218_.jpg",
+      "precio": 126,
+      "id": 4
+    },
+    {
+      "nombre": "Razer gamming Viper",
+      "img": "https://m.media-amazon.com/images/I/61M-GlcZjhL._AC_UY218_.jpg",
+      "precio": 118,
+      "id": 5
+    },
+    {
+      "nombre": "Auriculares Bluetooth",
+      "img": "https://m.media-amazon.com/images/I/41wv3mCUtqL._AC_UY218_.jpg",
+      "precio": 129,
+      "id": 6
+    }
+  ]
 }
