@@ -1,0 +1,16 @@
+{
+    "computadores": [
+        {
+            "nombre": "Razer Orbweaver Chroma",
+            "img": "https://m.media-amazon.com/images/I/71r3ktfakgL._AC_UY218_.jpg",
+            "precio": 74,
+            "id": 1
+        },
+        {
+            "nombre": "Teclado mecanico RGB 63 teclas",
+            "img": "https://m.media-amazon.com/images/I/611X-320QDL._AC_UY218_.jpg",
+            "precio": "",
+            "id": 2
+        }
+]
+}
