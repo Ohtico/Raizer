@@ -1,3 +1,7 @@
+let url_computer = 'http://localhost:4000/computadores';
+let url2 = 'http://localhost:4001/gadges';
+let url3 = 'http://localhost:4002/laptos';
+
 let formulario = document.getElementById('formulario')
 let btnProducto = document.getElementById('btnProducto')
 let btnEditar = document.getElementById('btnEditar')
@@ -7,36 +11,37 @@ let btnEliminar = document.getElementById('btnEliminar')
 // })
 
 formulario.addEventListener('submit', async (e) => {
+    console.log(formulario)
     e.preventDefault()
+    let nombre = document.getElementById('nombre').value;
+    let precio = document.getElementById('precio').value;
+    let url = document.getElementById('url').value
+    
+    let resp = await fetch(url_computer, {
+        method: 'POST',
+        body: JSON.stringify({
+            nombre: nombre,
+            precio: precio,
+            url: url
+        }),
+        headers: {
+            "Content-Type": "application/json; charset=UTF-8"
+        }
+    })
 })
 
-let nombre = document.getElementById('name').value;
-let precio = document.getElementById('precio').value;
-let url = document.getElementById('url').value
-
-let resp = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify({
-        nombre: nombre,
-        precio: precio,
-        url: url
-    }),
-    headers: {
-        "Content-Type": "application/json; charset=UTF-8"
-    }
-})
 
 btnProducto.addEventListener('click', async () => {
-    let nombre = document.getElementById('nombre').value;
+    let nombreInput = document.getElementById('nombre').value;
 
-    let resp = await fetch(url)
+    let resp = await fetch(url_computer)
     let data = await resp.json()
 
-    let modificar = data.find(producto => producto.nombre === nombre)
+    let modificar = data.find(producto => producto.nombre === nombreInput)
 
     const {nombre, precio, img} = modificar;
 
-    document.getElementById('name').value = nombre;
+    document.getElementById('nombre').value = nombre;
     document.getElementById('precio').value = precio
     document.getElementById('url').value = img
 })
@@ -46,7 +51,7 @@ btnEditar.addEventListener('clicl', async() => {
     let nameMod = document.getElementById('name').value;
     let precio = document.getElementById('precio').value
 
-    let resp = await fetch(`${url}/${idModificar}`, {
+    let resp = await fetch(`${url_computer}/${idModificar}`, {
         method: 'PUT',
         body: JSON.stringify({
             id:idModificar,
