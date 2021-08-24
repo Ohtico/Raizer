@@ -1,13 +1,40 @@
 {
     "laptos": [
         {
-            "nombre": "Matilde  ",
-            "img": "British Shorthair",
-            "precio": "6 Meses",
+            "nombre": "MSI GS76 Stealth Gaming Laptop: Intel Core i9-11900H",
+            "img": "https://m.media-amazon.com/images/I/71VpMMo6IjL._AC_UY218_.jpg",
+            "precio": "3.999",
             "id": 1
         },
         {
-            
+            "nombre": "ASUS VivoBook 15 portátil delgado y ligero, pantalla FHD",
+            "img": "https://m.media-amazon.com/images/I/81oVSSITRQL._AC_UY218_.jpg",
+            "precio": "419",
+            "id": 2
+        },
+        {
+            "nombre": "Acer Ordenador portátil para juegos Predator",
+            "img": "https://m.media-amazon.com/images/I/719Hcr4vHPS._AC_UY218_.jpg",
+            "precio": "1.299",
+            "id": 3
+        },
+        {
+            "nombre": "iProda Laptop i3, 14 pulgadas Ordenadores portátiles",
+            "img": "https://m.media-amazon.com/images/I/51wJXzIJeBL._AC_UY218_.jpg",
+            "precio": "358",
+            "id": 3
+        },
+        {
+            "nombre": "HP Stream portátil de 14 pulgadas, Intel Celeron N4000, 4 GB de RAM",
+            "img": "https://m.media-amazon.com/images/I/81RCOr3hJOL._AC_UY218_.jpg",
+            "precio": "270",
+            "id": 3
+        },
+        {
+            "nombre": "Acer Aspire 5 Computadora portátil delgada, pantalla IPS Full HD ",
+            "img": "https://m.media-amazon.com/images/I/71vvXGmdKWL._AC_UY218_.jpg",
+            "precio": "439",
+            "id": 3
         }
     ]
 }
